@@ -1,0 +1,17 @@
+{
+  "name": "user-analysis",
+  "version": "1.0.0",
+  "description": "用户UA统计分析",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.18.3"
+  }
+}
