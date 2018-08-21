@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = 'mongodb://localhost/movie-trailer';
+const db = 'mongodb://localhost/userSystemInfo';
 const glob = require('glob')
 const { resolve } = require('path')
 
@@ -20,7 +20,7 @@ exports.connect = () => {
     }
 
     mongoose.connect(db, {
-      useMongoClient: true,
+      useNewUrlParser: true
     });
 
     mongoose.connection.on('disconnected', () => {
