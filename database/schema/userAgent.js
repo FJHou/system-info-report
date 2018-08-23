@@ -23,7 +23,7 @@ const userAgentSchemas = new Schema({
   },
   ip: String,
   time: String,
-  userToken: String,
+  token: String,
   phone: String,
   meta: {
     createdAt: {
